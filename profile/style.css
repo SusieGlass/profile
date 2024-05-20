@@ -1,0 +1,60 @@
+body {
+background-color: beige;
+font-family: 'Times New Roman', Times, serif;
+color: chartreuse;
+font-size: small;
+line-height: normal;
+}
+
+
+h1 {
+  color: rgb(67, 196, 53);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  line-height: normal;
+  }
+
+h2 {
+color: rgb(68, 191, 68);
+font-family: 'Times New Roman', Times, serif;
+font-size: larger;
+line-height: normal;
+}
+
+#logo {
+  margin: auto;
+  border: 1px solid rgb(22, 153, 42);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 10%;
+  }
+
+  .paragraphe {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  }
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .paragraphe {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .paragraphe {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .paragraphe {
+      width: 300px;
+    }
+  }
